@@ -26,9 +26,9 @@ we would opt for the second strategy idea, putting quotes around the last transa
 **Second remark:**\
 Our strategy might be improved by taking into account short run price movement (price movement for the next period $t$). Indeed, we can put bid and ask quotes that try to follow the anticipated (short term) trend  (up trend or down trend):
 - if we anticipate the (mid) price to go up in the next period, we could set a more aggressive bid quote and a less aggressive ask quotes, for instance
-$$\big(p_{t-1} - \delta/4, \,p_{t-1} + (3/4) \delta \big).$$
+$$\big(p_{t-1} - \delta/4, p_{t-1} + (3/4) \delta \big).$$
 - if we anticipate that the (mid) price to go down in the next period, we can suggest quotes as follows: 
-$$\big(p_{t-1} - (3/4)\delta, \,p_{t-1} +  \delta/4 \big).$$
+$$\big(p_{t-1} - (3/4)\delta, p_{t-1} +  \delta/4 \big).$$
 To do that we will analyse different features relative to the order book such as `order book pressure` and the `order book imbalance`.\
 Especially looking at the impact it might have on the (mid-price) return
 $$ \text{mid price} = \frac{p^b_{\text{best}} + p^a_{\text{best}}}{2}.$$
