@@ -10,7 +10,7 @@ In this project, we will look into **two simple ideas**, or a **combination of t
 
 - **Strategy-1:** Setting the bid and asks quotes as the same as (or at least very close as) the previous one we observed in the order book:
 $$\big(p_{t-1}^{\text{best bid}} - \mu, p_{t-1}^{\text{best ask}} + \mu \big)$$
-with $\mu$ a parameter to be calibrated using `historical data`. Typically, we'll take $$\mu = \sigma\big( \text{mid_price_return} \big) \sigma\big(spread  \big).$$
+with $\mu$ a parameter to be calibrated using `historical data`. Typically, we'll take $$\mu = \underbrace{\sigma\big( \text{mid\_price\_return} \big)}_{\text{volatility}} \sigma\big(spread  \big).$$
 
 - **Strategy-2:** Setting the bid and asks quotes around the last transaction price (denoted $p_{t-1}$)  which means setting  the bid-asks pair as:
 $$\big(p_{t-1} - \delta/2, p_{t-1} + \delta/2 \big).$$ 
