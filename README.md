@@ -57,6 +57,7 @@ At the very least, we will investigate the relationship between the `spread` and
   year={2003}
 }
 ```
+* [Learn what a depth chart is and how to create it in Python](https://towardsdatascience.com/learn-what-a-depth-chart-is-and-how-to-create-it-in-python-323d065e6f86)
 
 
 
