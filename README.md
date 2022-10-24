@@ -37,8 +37,5 @@ Also, if the market is `trending`, it could result in `hitting too often only on
 
 
 **Third remark:**\
-Since the spread might be impacted by the volatility (of the mid price), it could be interesting to set the bid asks pair as a function of the volatility. \
-At least we will look at the relationship between the `spread` and the `volatility` (
-standard deviation of the log (mid price) returns).
-
-
+Since the spread may be influenced by volatility (of the mid price), it may be worthwhile to set the bid asks pair as a function of volatility.\
+At the very least, we will investigate the relationship between the `spread` and the `volatility` (standard deviation of log mid price returns).
