@@ -50,3 +50,13 @@ At the very least, we will investigate the relationship between the `spread` and
   year={2017}
 }
 ```
+```BibTeX
+@article{das2003intelligent,
+  title={Intelligent market-making in artificial financial markets},
+  author={Das, Sanmay},
+  year={2003}
+}
+```
+
+
+
