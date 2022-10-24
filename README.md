@@ -39,3 +39,14 @@ Also, if the market is `trending`, it could result in `hitting too often only on
 **Third remark:**\
 Since the spread may be influenced by volatility (of the mid price), it may be worthwhile to set the bid asks pair as a function of volatility.\
 At the very least, we will investigate the relationship between the `spread` and the `volatility` (standard deviation of log mid price returns).
+
+
+## References
+```BibTeX
+@article{kanagal2017market,
+  title={Market Making with Machine Learning Methods},
+  author={Kanagal, Kapil and Wu, Yu and Chen, Kevin},
+  journal={Available online here https://web. stanford. edu/class/msande448/2017/Final/Reports/gr4. pdf},
+  year={2017}
+}
+```
