@@ -1,4 +1,4 @@
-# Creation of a Market-Making strategy
+# Development of a Market-Making Strategy
 
 The goal of this project is to create a market-making algorithm using an `order book dataset` and an associated `trade book dataset`.
 A market-making strategy consists essentially of submitting bid-ask quotes $(p_{t}^b, p_{t}^a)$ at period $t$ in order to `capture the bid-ask spread` if the two orders are filled over time.
