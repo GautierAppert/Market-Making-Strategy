@@ -41,7 +41,9 @@ Since the spread may be influenced by volatility (of the mid price), it may be w
 At the very least, we will investigate the relationship between the `spread` and the `volatility` (standard deviation of log mid price returns).
 
 
-## References
+## Articles
+
+
 ```BibTeX
 @article{kanagal2017market,
   title={Market Making with Machine Learning Methods},
@@ -58,6 +60,7 @@ At the very least, we will investigate the relationship between the `spread` and
 }
 ```
 * [Learn what a depth chart is and how to create it in Python](https://towardsdatascience.com/learn-what-a-depth-chart-is-and-how-to-create-it-in-python-323d065e6f86)
+* [Python Tutorial: Explore and Visualize Crypto Order Book Snapshots with Kaiko’s API](https://blog.kaiko.com/python-tutorial-explore-and-visualize-crypto-order-book-snapshots-with-kaikos-api-a9a77ae90b65)
 
 
 
