@@ -13,7 +13,7 @@ $$\big(p_{t-1}^{\text{best bid}} - \mu, p_{t-1}^{\text{best ask}} + \mu \big)$$
 with $\mu$ a parameter to be calibrated using `historical data`. Typically, we'll use $$\mu = \underbrace{\sigma\big( \text{mid price return} \big)}_{\text{volatility}} \sigma\big(spread  \big).$$
 
 - **Strategy-2:** 
-Setting the bid and ask quotes around the last transaction price (denoted $p t-1$), which means establishing the bid-ask pair as:
+Setting the bid and ask quotes around the last transaction price (denoted $p_{t-1}$), which means establishing the bid-ask pair as:
 $$\big(p_{t-1} - \delta/2, p_{t-1} + \delta/2 \big).$$ 
 The fixed spread $\delta$ would be calculated, for example, by taking the mean (or median) of the previous historical spreads, $\delta = \text{mean}\big(spread \big)$.
 
